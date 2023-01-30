@@ -14,7 +14,7 @@ const Contact = ({ contact: { name, number, id } }) => {
       <Text>{name}</Text>
       <Text>{number}</Text>
       <ContactBtn type="button" id={id} onClick={removeContact}>
-        Delete
+        !Delete!
       </ContactBtn>
     </ListItem>
   );
